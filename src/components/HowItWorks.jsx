@@ -33,10 +33,10 @@ const HowItWorks = () => {
     <section id="como-funciona" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-lex-blue mb-4">
+          <h2 data-aos="fade-up" className="text-4xl md:text-5xl font-bold text-lex-blue mb-4">
             Como Funciona
           </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          <p data-aos="fade-up" data-aos-delay="200" className="text-xl text-gray-700 max-w-3xl mx-auto">
             Um processo simples e transparente para reduzir sua dívida e proteger seu veículo
           </p>
         </div>
@@ -48,6 +48,8 @@ const HowItWorks = () => {
               return (
                 <div
                   key={index}
+                  data-aos="flip-left"
+                  data-aos-delay={index * 150}
                   className="relative"
                 >
                   <div className="bg-gradient-to-br from-lex-blue to-lex-blue-dark text-white p-8 rounded-xl shadow-lg h-full">
@@ -77,7 +79,7 @@ const HowItWorks = () => {
           </div>
         </div>
 
-        <div className="text-center mt-16">
+        <div data-aos="zoom-in" data-aos-delay="600" className="text-center mt-16">
           <a
             href="#inicio"
             className="inline-block bg-lex-gold text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-lex-gold-light transition transform hover:scale-105 shadow-lg"

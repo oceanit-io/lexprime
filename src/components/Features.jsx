@@ -29,10 +29,10 @@ const Features = () => {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-lex-blue mb-4">
+          <h2 data-aos="fade-up" className="text-4xl md:text-5xl font-bold text-lex-blue mb-4">
             Não pague mais juros abusivos
           </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          <p data-aos="fade-up" data-aos-delay="200" className="text-xl text-gray-700 max-w-3xl mx-auto">
             Pare de pagar um valor absurdo pelo seu veículo, você arca com altos valores indevidamente! Recorra agora e identifique se está sofrendo com os Juros Abusivos!
           </p>
         </div>
@@ -43,6 +43,8 @@ const Features = () => {
             return (
               <div
                 key={index}
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
                 className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2"
               >
                 <div className="text-lex-blue mb-4">
@@ -59,7 +61,7 @@ const Features = () => {
           })}
         </div>
 
-        <div className="text-center mt-12">
+        <div data-aos="zoom-in" data-aos-delay="400" className="text-center mt-12">
           <a
             href="#inicio"
             className="inline-block bg-lex-blue text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-lex-blue-dark transition transform hover:scale-105 shadow-lg"

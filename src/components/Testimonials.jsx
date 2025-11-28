@@ -23,10 +23,10 @@ const Testimonials = () => {
     <section id="depoimentos" className="py-20 bg-gradient-to-br from-gray-50 to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-lex-blue mb-4">
+          <h2 data-aos="fade-up" className="text-4xl md:text-5xl font-bold text-lex-blue mb-4">
             Histórias de Sucesso
           </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          <p data-aos="fade-up" data-aos-delay="200" className="text-xl text-gray-700 max-w-3xl mx-auto">
             Mais de 50 mil veículos quitados com redução de até 80% na dívida
           </p>
         </div>
@@ -35,6 +35,8 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
+              data-aos="fade-up"
+              data-aos-delay={index * 150}
               className="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 flex flex-col h-full"
             >
               <div className="mb-4 flex-grow">
@@ -58,19 +60,19 @@ const Testimonials = () => {
         </div>
 
         <div className="mt-16 grid md:grid-cols-4 gap-8 max-w-5xl mx-auto text-center">
-          <div>
+          <div data-aos="zoom-in" data-aos-delay="0">
             <div className="text-4xl font-bold text-lex-gold mb-2">+50 mil</div>
             <div className="text-gray-700 font-semibold">Veículos Quitados</div>
           </div>
-          <div>
+          <div data-aos="zoom-in" data-aos-delay="100">
             <div className="text-4xl font-bold text-lex-gold mb-2">+12 anos</div>
             <div className="text-gray-700 font-semibold">de Experiência</div>
           </div>
-          <div>
+          <div data-aos="zoom-in" data-aos-delay="200">
             <div className="text-4xl font-bold text-lex-gold mb-2">Até 80%</div>
             <div className="text-gray-700 font-semibold">de Economia</div>
           </div>
-          <div>
+          <div data-aos="zoom-in" data-aos-delay="300">
             <div className="text-4xl font-bold text-lex-gold mb-2">100%</div>
             <div className="text-gray-700 font-semibold">Seguro</div>
           </div>

@@ -7,15 +7,14 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <img 
-                src="/lex-logo.jpg" 
-                alt="LEX PRIME Logo" 
-                className="h-12 w-auto"
-              />
-              <div>
-                <h3 className="text-xl font-bold">LEX PRIME</h3>
-                <p className="text-lex-gold text-sm">Soluções Financeiras</p>
+              <div className="bg-white rounded-lg p-2 shadow-lg">
+                <img 
+                  src="/lex-logo-2.png" 
+                  alt="LEX PRIME Logo" 
+                  className="h-20 w-auto"
+                />
               </div>
+              
             </div>
             <p className="text-gray-300">
               Especialistas em reduzir dívidas veiculares e eliminar juros abusivos. Mais de 12 anos de experiência ajudando milhares de brasileiros.

@@ -16,7 +16,7 @@ const Hero = () => {
   }
 
   return (
-    <section id="inicio" className="pt-24 pb-16 text-white relative overflow-hidden">
+    <section id="inicio" className="pt-32 md:pt-36 pb-16 text-white relative overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: 'url(/hero.webp)' }}
@@ -24,19 +24,19 @@ const Hero = () => {
       <div className="absolute inset-0 bg-lex-blue opacity-80" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-semibold mb-4 tracking-tight">
+          <h2 data-aos="fade-down" className="text-3xl md:text-4xl font-semibold mb-4 tracking-tight">
             Análise Gratuita do Seu Contrato
           </h2>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-lex-gold leading-tight">
+          <h1 data-aos="fade-up" data-aos-delay="200" className="text-4xl md:text-6xl font-bold mb-6 text-lex-gold leading-tight">
             Reduza sua dívida veicular com negociação especializada
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-white/90">
+          <p data-aos="fade-up" data-aos-delay="400" className="text-xl md:text-2xl mb-8 text-white/90">
             Nossa equipe analisa seu contrato e identifica oportunidades de redução de juros e taxas abusivas
           </p>
         </div>
 
         <div className="max-w-2xl mx-auto">
-          <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-2xl p-8 text-gray-900">
+          <form data-aos="zoom-in" data-aos-delay="600" onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-2xl p-8 text-gray-900">
             <div className="space-y-6">
               <div>
                 <label className="block text-lg font-semibold mb-3">
@@ -122,7 +122,7 @@ const Hero = () => {
             </div>
           </form>
 
-          <div className="mt-8 text-center">
+          <div data-aos="fade-up" data-aos-delay="800" className="mt-8 text-center">
             <p className="text-yellow-200 font-semibold text-lg">
               ⚠️ ATENÇÃO
             </p>

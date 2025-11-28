@@ -9,18 +9,16 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <img 
-              src="/lex-logo.jpg" 
+              src="/lex-logo-2.png" 
               alt="LEX PRIME Logo" 
-              className="h-12 w-auto"
+              className="h-20 w-auto"
             />
-            <div className="hidden md:block">
-              <h1 className="text-xl font-bold text-lex-blue">LEX PRIME</h1>
-              <p className="text-xs text-lex-gold">Soluções Financeiras</p>
-            </div>
+            
           </div>
           
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#inicio" className="text-gray-700 hover:text-lex-blue font-medium transition">Início</a>
+            <a href="#calculadora" className="text-gray-700 hover:text-lex-blue font-medium transition">Calculadora</a>
             <a href="#como-funciona" className="text-gray-700 hover:text-lex-blue font-medium transition">Como Funciona</a>
             <a href="#depoimentos" className="text-gray-700 hover:text-lex-blue font-medium transition">Depoimentos</a>
             <a href="#contato" className="bg-lex-blue text-white px-6 py-2 rounded-lg font-semibold hover:bg-lex-blue-dark transition">
@@ -42,6 +40,7 @@ const Header = () => {
           <div className="md:hidden mt-4 pb-4">
             <nav className="flex flex-col space-y-3">
               <a href="#inicio" className="text-gray-700 hover:text-lex-blue font-medium">Início</a>
+              <a href="#calculadora" className="text-gray-700 hover:text-lex-blue font-medium">Calculadora</a>
               <a href="#como-funciona" className="text-gray-700 hover:text-lex-blue font-medium">Como Funciona</a>
               <a href="#depoimentos" className="text-gray-700 hover:text-lex-blue font-medium">Depoimentos</a>
               <a href="#contato" className="bg-lex-blue text-white px-6 py-2 rounded-lg font-semibold text-center">
