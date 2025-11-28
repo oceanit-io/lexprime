@@ -7,6 +7,8 @@ import {
   FaFileContract,
   FaGavel,
   FaShieldAlt,
+  FaMoneyBillWave,
+  FaBan,
 } from "react-icons/fa";
 
 const Services = () => {
@@ -52,6 +54,18 @@ const Services = () => {
       description:
         "Ação preventiva para evitar a busca e apreensão do seu veículo. Negociamos acordos e condições que protegem seu patrimônio antes que a situação se agrave.",
       icon: FaShieldAlt,
+    },
+    {
+      title: "Redução de Dívidas com Cheque Especial",
+      description:
+        "Negocie suas dívidas de cheque especial com condições mais favoráveis. Analisamos taxas e juros aplicados e reduzimos o valor devido através de renegociação especializada.",
+      icon: FaMoneyBillWave,
+    },
+    {
+      title: "Proteção contra Negativação e Restrição de CPF",
+      description:
+        "Ajudamos a evitar ou remover sua negativação em órgãos de proteção ao crédito. Negociamos acordos que previnem a restrição do seu CPF e protegem seu nome no mercado.",
+      icon: FaBan,
     },
   ];
 
