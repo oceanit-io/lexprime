@@ -376,7 +376,7 @@ const Calculator = () => {
 
         <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-8">
           {/* Seção de Entrada */}
-          <div data-aos="fade-right" className="bg-white rounded-2xl shadow-xl p-8">
+          <div data-aos="fade-down" className="bg-white rounded-2xl shadow-xl p-8">
             <h3 className="text-2xl font-bold text-lex-blue mb-6">Dados do Contrato</h3>
             
             <div className="space-y-6">
@@ -630,7 +630,7 @@ const Calculator = () => {
           </div>
 
           {/* Seção de Resultado */}
-          <div data-aos="fade-left" className="bg-gradient-to-br from-lex-blue to-lex-blue-dark rounded-2xl shadow-xl p-8 text-white">
+          <div data-aos="fade-up" className="bg-gradient-to-br from-lex-blue to-lex-blue-dark rounded-2xl shadow-xl p-8 text-white">
             <div className="text-center mb-8">
               <div className="inline-flex items-center justify-center w-20 h-20 bg-white/20 rounded-full mb-4">
                 <FaCheckCircle className="text-4xl text-lex-gold" />

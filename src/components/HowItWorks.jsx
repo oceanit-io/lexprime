@@ -6,13 +6,13 @@ const HowItWorks = () => {
     {
       number: "1º",
       title: "Análise",
-      description: "Após o cadastro, um de nossos consultores entrará em contato para analisar o contrato e identificar os valores de juros abusivos e as taxas irregulares.",
+      description: "Após o cadastro, um de nossos especialistas entrará em contato para analisar o contrato e identificar os valores de juros abusivos e as taxas irregulares.",
       icon: FaClipboardCheck
     },
     {
       number: "2º",
       title: "Notificação",
-      description: "Em seguida, vamos questionar o banco/financeira a respeito das cobranças de juros abusivos e taxas irregulares. Caso você tenha parcelas atrasadas, também iremos renegociá-las.",
+      description: "Em seguida, vamos notificar a instituição financeira a respeito das cobranças de juros abusivos e taxas irregulares. Caso você tenha parcelas atrasadas, também iremos renegociá-las.",
       icon: FaBullhorn
     },
     {
@@ -24,7 +24,7 @@ const HowItWorks = () => {
     {
       number: "4º",
       title: "Regularizado!",
-      description: "Assim que encontrarmos o melhor acordo possível em termos e condições de pagamento, você poderá até quitar o financiamento com o novo acordo, mais barato e livre de cobranças abusivas.",
+      description: "Assim que encontrarmos o melhor acordo possível em termos e condições de pagamento, você poderá até quitar o financiamento ou pagar as parcelas reduzidas, livre de cobranças abusivas.",
       icon: FaCheckCircle
     }
   ]

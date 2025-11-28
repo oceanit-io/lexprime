@@ -1,6 +1,20 @@
 import React from 'react'
 
 const Footer = () => {
+  const handleSmoothScroll = (e, targetId) => {
+    e.preventDefault()
+    const targetElement = document.querySelector(targetId)
+    if (targetElement) {
+      const headerOffset = 80
+      const elementPosition = targetElement.getBoundingClientRect().top
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      })
+    }
+  }
   return (
     <footer id="contato" className="bg-lex-blue-dark text-white py-12">
       <div className="container mx-auto px-4">
@@ -25,16 +39,22 @@ const Footer = () => {
             <h4 className="text-lg font-bold mb-4 text-lex-gold">Links Rápidos</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#inicio" className="text-gray-300 hover:text-lex-gold transition">Início</a>
+                <a href="#inicio" onClick={(e) => handleSmoothScroll(e, '#inicio')} className="text-gray-300 hover:text-lex-gold transition">Início</a>
               </li>
               <li>
-                <a href="#como-funciona" className="text-gray-300 hover:text-lex-gold transition">Como Funciona</a>
+                <a href="#calculadora" onClick={(e) => handleSmoothScroll(e, '#calculadora')} className="text-gray-300 hover:text-lex-gold transition">Calculadora</a>
               </li>
               <li>
-                <a href="#depoimentos" className="text-gray-300 hover:text-lex-gold transition">Depoimentos</a>
+                <a href="#servicos" onClick={(e) => handleSmoothScroll(e, '#servicos')} className="text-gray-300 hover:text-lex-gold transition">Serviços</a>
               </li>
               <li>
-                <a href="#contato" className="text-gray-300 hover:text-lex-gold transition">Contato</a>
+                <a href="#como-funciona" onClick={(e) => handleSmoothScroll(e, '#como-funciona')} className="text-gray-300 hover:text-lex-gold transition">Como Funciona</a>
+              </li>
+              <li>
+                <a href="#depoimentos" onClick={(e) => handleSmoothScroll(e, '#depoimentos')} className="text-gray-300 hover:text-lex-gold transition">Depoimentos</a>
+              </li>
+              <li>
+                <a href="#contato" onClick={(e) => handleSmoothScroll(e, '#contato')} className="text-gray-300 hover:text-lex-gold transition">Contato</a>
               </li>
             </ul>
           </div>
