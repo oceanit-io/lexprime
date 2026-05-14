@@ -65,7 +65,7 @@ const Testimonials = () => {
             <div className="text-gray-700 font-semibold">Veículos Quitados</div>
           </div>
           <div data-aos="zoom-in" data-aos-delay="100">
-            <div className="text-4xl font-bold text-lex-gold mb-2">+12 anos</div>
+            <div className="text-4xl font-bold text-lex-gold mb-2">+4 anos</div>
             <div className="text-gray-700 font-semibold">de Experiência</div>
           </div>
           <div data-aos="zoom-in" data-aos-delay="200">
